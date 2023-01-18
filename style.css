@@ -1,9 +1,17 @@
-body{
+*{
     font-family: 'Teko', sans-serif;
     /* border: 2px solid black; */
     color: #1F3659;
     background: linear-gradient(left,white,E0C9A6,white,E0C9A6);
+    text-align: center;
     
+}
+main{
+    width: 700px;;
+    border: 5px  black;
+    border-style:double;
+    margin-left: auto;
+    margin-right: auto;
 }
 body header h1{
     font-weight: 500;
@@ -12,6 +20,7 @@ body header h1{
 }
  body header nav{
     border-bottom:1px solid #1F3659;
+    margin-bottom: 10px;
     
 } 
 body header nav ul{
@@ -45,4 +54,5 @@ body article section img{
     border-radius: 10px;
     box-shadow:-5px 5px 5px lightsteelblue;
 }
+
 

@@ -1,0 +1,59 @@
+*{
+    font-family: 'Teko', sans-serif;
+    color: #1F3659;
+    background: linear-gradient(left,white,E0C9A6,white,E0C9A6);
+    text-align: center;
+}
+main{
+    width: 700px;;
+    border: 5px  black;
+    border-style:double;
+    margin-left: auto;
+    margin-right: auto;
+}
+body header h1{
+    font-weight: 500;
+   text-align: center;
+   padding-top: 10px;
+}
+ body header nav{
+    border-bottom:1px solid #1F3659;
+    margin-bottom: 10px;
+    
+} 
+body header nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    list-style-type: none;
+    
+}
+body header nav ul li a{
+    
+    text-decoration: none;
+    padding: 0 5px;
+   
+}
+main{
+    padding: 10px,0px;
+    background: linear-gradient(45deg,rgba(69, 139, 172, 0.422),white,rgba(69, 139, 172, 0.422));
+    border-radius: 10px;
+}
+#firstname,#lastname,#email{
+    margin: 5px;
+    
+}
+#btn{
+    margin-top: 10px;
+    width:80px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(69, 139, 172, 0.422);
+    font-size: medium;
+    font-weight: bold;
+}
+#msg #message:hover{
+        
+        background:linear-gradient(rgba(69, 139, 172, 0.422),white) ;
+}

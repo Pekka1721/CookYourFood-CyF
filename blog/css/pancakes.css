@@ -2,19 +2,15 @@
     font-family: 'Teko', sans-serif;
     color: #1F3659;
     background: linear-gradient(left,white,E0C9A6,white,E0C9A6);
-    
-    
 }
-.container{
+#container{
     text-align: center;
 }
-
 ul,ol{
-    
     display: inline-block;
     text-align: left;
 }
 img{
-    border-radius: 10px;
-    box-shadow:-5px 5px 10px slategray ;
-}
+   
+border-radius: 10px;
+        box-shadow:-5px 5px 10px slategray ;}
